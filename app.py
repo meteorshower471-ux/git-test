@@ -1,9 +1,9 @@
 def greet(name):
-    return f"Hi, {name}!"   # changed line 💣
+    return f"Hello, {name}!"   # different from feature 💣
 
 def add(a, b):
     return a + b
 
 if __name__ == "__main__":
     print(greet("Mehul"))
-    print("Total:", add(5, 3))   # changed text
+    print("Sum:", add(5, 3))   # different from feature 💣
